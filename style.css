@@ -1,0 +1,114 @@
+/* Fuente Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+
+
+/* Clase fuente Titulo*/
+.fontTitle {
+    font-family: 'Aoboshi One', serif;
+}
+
+.fontPar {
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium
+    
+}
+
+/* Logo */
+.logoUnde {
+    border-radius: 10px !important;
+}
+
+
+/* Barra de Navegación */
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+    padding: 2rem;
+    font-weight: 1000;
+}
+
+.navbar-collapse1 {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* Sección Nosotros */
+.img1-nosotros{
+    margin: auto !important;
+}
+.s-nosotros {
+    height: 450px; /* O ajusta la altura según tus necesidades */
+    background-image: url('assets/images/img1-nosotros.jpg');
+    background-size: cover; /* Ajusta el tamaño para cubrir la sección */
+    background-position: center; /* Ajusta la posición de la imagen de fondo */
+    position: relative; /* Importante para posicionar el contenido encima de la imagen */
+    overflow: hidden; /* Asegura que el contenido adicional no se desborde de la sección */
+    border-radius: 40px; 
+    margin: 30px;
+    margin-bottom: 60px;
+
+}
+
+.div-section{
+    position: absolute;
+  top: 50%; /* Ajusta la posición vertical del contenido */
+  left: 50%; /* Ajusta la posición horizontal del contenido */
+  transform: translate(-50%, -50%); /* Centra el contenido */
+  text-align: center; /* Ajusta el alineamiento del texto */
+  color: #fff; /* Color del texto */
+}
+
+/* Sección Productos */
+.fontTitle1 {
+    font-family: 'Aoboshi One', serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.entremets img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.cardCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección Carousel */
+
+.sectionCarousel {
+    background: rgba(24,23,31,1);
+    margin: 40px;
+}
+
+.carousel {
+    height: 70% ;
+    width: 70% ;
+    align-items: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 767px) {
+
+.cardCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+}
